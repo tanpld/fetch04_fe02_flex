@@ -128,14 +128,11 @@ main img {
         justify-content: space-between;
     }
     header .logo {
-        padding: .5rem 3rem;
+        width: 20%;
     }
     .header__right .search {
         display: flex;
         flex-direction: row-reverse;
-    }
-    .header__right .search input {
-        width: 70%;
     }
 
     /* MAIN NAV */
@@ -180,6 +177,7 @@ main img {
     }
     aside.right-sidebar .external-link {
         flex: 1;
+        text-align: left;
     }
 
 }
