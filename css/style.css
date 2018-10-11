@@ -126,9 +126,11 @@ main img {
     header {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     header .logo {
         width: 20%;
+        margin-bottom: 0;
     }
     .header__right .search {
         display: flex;
